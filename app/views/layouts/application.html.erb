@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Myi18n</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div id="test"></div>
+	<script type="text/javascript">
+	  	I18n.defaultLocale = "<%= I18n.default_locale %>";
+	  	I18n.locale = "<%= I18n.locale %>";
+	  	I18n.fallbacks = true;
+	  	
+	  	alert("標準のロケールは" + I18n.locale);
+	</script>
+
+<%= yield %>
+
+</body>
+</html>

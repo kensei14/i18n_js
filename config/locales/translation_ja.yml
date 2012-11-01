@@ -1,0 +1,8 @@
+ja:
+  activerecord:
+    models:
+      sample: sample  #g
+
+    attributes:
+      sample:
+        name: name  #g
