@@ -1,8 +1,8 @@
-仕様
-
 ①gem install i18n-js
 
 ②rake i18n:js:setup
+
+i18-js.ymlファイルの生成。初期化（？）
 
 ③rake i18n:js:export
 
@@ -28,4 +28,7 @@
     
 ⑤I18n.translate('en.hello');
 
-localeに会わせた’こんにちは’が出てくる。
+localeに合わせた’こんにちは’が出てくる。
+
+	alert(I18n.t('js.hello'));
+    alert(I18n.t('js.goodbye'));
