@@ -1,3 +1,5 @@
+https://github.com/fnando/i18n-jsのサンプル
+
 ①gem install i18n-js
 
 ②rake i18n:js:setup
